@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+#box {
+  height: 18vmin;
+  width: 18vmin;
+  font-size: 8vmin;
+  border-radius: 1rem;
+  border: none;
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
+
+#rstbtn {
+  font-size: 1.2rem;
+  padding: 7px;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(235, 34, 34);
+  cursor: pointer;
+}
+.tic {
+  margin-top: 10px;
+  font-size: 2.3rem;
+  color: gold;
+}
+
+.msg-winner {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#msg {
+  font-size: 2.5rem;
+  margin: 15px;
+  color: goldenrod;
+}
+#new-btn {
+  font-size: 1.2rem;
+  padding: 7px;
+  border: none;
+  border-radius: 1rem;
+  margin: 15px;
+  padding: 10px;
+  background-color: gold;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+
+#turn {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: goldenrod;
+}
+
+#history {
+  color: red;
+  font-size: 2.5rem;
+}
